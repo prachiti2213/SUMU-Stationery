@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* LETTER-BY-LETTER REVEAL */
+.letter-reveal span {
+  display: inline-block;
+}
+
+.letter-reveal span,
+.letter-reveal span * {
+  animation: revealLetters 0.9s ease-out forwards;
+}
+
+@keyframes revealLetters {
+  from {
+    opacity: 0;
+    transform: translateY(0.35em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* stagger effect */
+.letter-reveal span {
+  animation-delay: 0.15s;
+}
+.letter-reveal span + span {
+  animation-delay: 0.35s;
+}
+@keyframes pencilFloat {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-pencil-float {
+  animation: pencilFloat 6s ease-in-out infinite;
+}
