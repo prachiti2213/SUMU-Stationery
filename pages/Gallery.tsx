@@ -61,26 +61,50 @@ export const Gallery = () => {
           to { opacity: 1; transform: scaleX(1); }
         }
       `}</style>
+<section className="relative mb-22 py-15 sm:py-12">
+<div className="text-center lg:text-center sm:text-left
+">
+    <h1 className="text-4xl md:text-6xl uppercase tracking-[0.32em]">
+      
+      {/* VISUAL */}
+      <span className="block sm:inline">
+        {"Visual".split("").map((char, i) => (
+          <span
+            key={`v-${i}`}
+            className="inline-block transition-transform duration-[1200ms] hover:-translate-y-[2px]"
+            style={{
+              fontFamily: `"Playfair Display", Georgia, serif`,
+              textShadow: "0 5px 14px rgba(0,0,0,0.25)",
+            }}
+          >
+            {char}
+          </span>
+        ))}
+      </span>
 
-      <section className="relative mb-22 py-15 sm:py-12">
-        <div className="text-left sm:text-center px-8">
-          <h1 className="text-4xl md:text-6xl uppercase tracking-[0.32em]">
-            {"Visual Journal".split("").map((char, i) => (
-              <span
-                key={i}
-                className="inline-block transition-transform duration-[1200ms]
-                           hover:-translate-y-[2px]"
-                style={{
-                  fontFamily: `"Playfair Display", Georgia, serif`,
-                  textShadow: "0 5px 14px rgba(0,0,0,0.25)"
-                }}
-              >
-                {char === " " ? "\u00A0" : char}
-              </span>
-            ))}
-          </h1>
-        </div>
-      </section>
+      {/* space only for desktop */}
+      <span className="hidden sm:inline">&nbsp;</span>
+
+      {/* JOURNAL */}
+      <span className="block sm:inline">
+        {"Journal".split("").map((char, i) => (
+          <span
+            key={`j-${i}`}
+            className="inline-block transition-transform duration-[1200ms] hover:-translate-y-[2px]"
+            style={{
+              fontFamily: `"Playfair Display", Georgia, serif`,
+              textShadow: "0 5px 14px rgba(0,0,0,0.25)",
+            }}
+          >
+            {char}
+          </span>
+        ))}
+      </span>
+
+    </h1>
+  </div>
+</section>
+
 
       {/* ================= GALLERY GRID ================= */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

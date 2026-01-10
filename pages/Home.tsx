@@ -163,7 +163,7 @@ export const Home = () => {
                   </h3>
                   <p className="max-w-3xl mx-auto text-[15px] leading-[1.8] text-yellow-900/70">
                     Crafted with child-safe materials, precision graphite formulation,
-                    and natural grip geometry—supporting focus and comfort.
+                    and natural grip geometry supporting focus and comfort.
                   </p>
                 </div>
               </section>

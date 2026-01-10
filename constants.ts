@@ -9,7 +9,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     specifications: 'Hexagonal barrel, Cedar wood, HB-8B grades',
     useCase: 'Technical drawing, sketching, writing',
     imageUrl: '/graphite9000.jpeg',
-    price: '$12.00'
+    price: ''
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     specifications: '3.8mm lead, oil-based, 72 color range',
     useCase: 'Artistic rendering, illustrations',
     imageUrl: '/colourpencil.jpeg',
-    price: '$24.50'
+    price: ''
   },
   {
     id: '3',
@@ -29,7 +29,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     specifications: 'Matte finish, gold foil stamping, extra-dark lead',
     useCase: 'Executive writing, gifting',
     imageUrl: '/sumuheritage.jpeg',
-    price: '$35.00'
+    price: ''
   },
   {
     id: '4',
@@ -39,7 +39,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     specifications: 'Bonded lead, ergonomic grip, eco-friendly lacquer',
     useCase: 'Students, examinations',
     imageUrl: '/sumuscholar.jpeg',
-    price: '$8.50'
+    price: ''
   },
   {
     id: '5',
