@@ -64,7 +64,7 @@ export const Home = () => {
     <div className="bg-black text-white">
 
       {/* ================= HERO ================= */}
-      <section className="h-screen pt-20 mb-15">
+      <section className="h-screen pt-2 mb-15">
         <video
           className="absolute inset-0 w-full h-full object-cover"
           src="/video.mp4"
