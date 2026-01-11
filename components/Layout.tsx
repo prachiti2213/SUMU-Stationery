@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Instagram, Facebook, Linkedin } from "lucide-react";
 import { PageRoute } from "../types";
 
+
 /* ================= NAV LINK ================= */
 const NavLink = ({
   to,
@@ -123,9 +124,10 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
               className="text-3xl font-serif uppercase tracking-tight"
             >
               SUMU
-              <span className="ml-2 text-[10px] tracking-[0.4em] uppercase text-gray-400">
-                Stationery
-              </span>
+             <span className="ml-2 text-[10px] tracking-[0.4em] uppercase font-medium text-current opacity-90">
+  Stationery
+</span>
+
             </Link>
 
             {/* DESKTOP LINKS */}
