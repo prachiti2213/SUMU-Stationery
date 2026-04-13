@@ -65,6 +65,9 @@ const Footer = () => (
             <li><Link to={PageRoute.ABOUT}>About</Link></li>
             <li><Link to={PageRoute.GALLERY}>Gallery</Link></li>
             <li><Link to={PageRoute.BLOG}>Blog</Link></li>
+            <li><Link to={PageRoute.PRIVACY_POLICY}>Privacy Policy</Link></li>
+            <li><Link to="/careers">Careers</Link></li>
+           
           </ul>
         </div>
 
@@ -89,7 +92,7 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="mt-12 pt-6 border-t border-white/10 text-center text-xs text-gray-500">
+      <div className="mt-12 pt-6 border-t border-white/10 text-center text-xs text-gray-300">
         © {new Date().getFullYear()} SUMU Stationery. All rights reserved.
       </div>
     </div>
@@ -138,6 +141,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
               <NavLink to={PageRoute.AUDIENCE}>Audience</NavLink>
               <NavLink to={PageRoute.GALLERY}>Gallery</NavLink>
               <NavLink to={PageRoute.BLOG}>Blog</NavLink>
+              <NavLink to="/careers">Careers</NavLink>
 
               {/* CONTACT BUTTON */}
               <Link
@@ -171,6 +175,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
             <NavLink mobile to={PageRoute.PRODUCTS} onClick={() => setIsOpen(false)}>Products</NavLink>
             <NavLink mobile to={PageRoute.GALLERY} onClick={() => setIsOpen(false)}>Gallery</NavLink>
             <NavLink mobile to={PageRoute.BLOG} onClick={() => setIsOpen(false)}>Blog</NavLink>
+            <NavLink mobile to="/careers" onClick={() => setIsOpen(false)}>Careers</NavLink>
             <NavLink mobile to={PageRoute.CONTACT} onClick={() => setIsOpen(false)}>Contact</NavLink>
           </div>
         )}

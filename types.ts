@@ -46,5 +46,6 @@ export enum PageRoute {
   GALLERY = '/gallery',
   BLOG = '/blog',
   CONTACT = '/contact',
-  ADMIN = '/admin'
+  PRIVACY_POLICY = '/privacy-policy',
+  ADMIN = '/admin',
 }

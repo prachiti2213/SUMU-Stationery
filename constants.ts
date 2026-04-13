@@ -88,7 +88,7 @@ export const INITIAL_CONTENT: SiteContent = {
   heroHeadline: 'Defining the Art of Writing.',
   heroSubheadline: 'Precision. Elegance. Legacy.',
   aboutText: 'SUMU Stationery carries a legacy of over 25 years. What began as a small retail venture has evolved into a growing stationery brand rooted in quality, trust, and consistency.',
-  contactEmail: ' sumustationery@gmail.com',
+  contactEmail: 'sumustationery@gmail.com',
   contactPhone: '+91 9022854954',
   themeColor: '#E3B341'
 };
