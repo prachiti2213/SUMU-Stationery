@@ -6,8 +6,9 @@ import { useContent } from "../context/ContentContext";
 
 export const Products = () => {
   const { content } = useContent();
-
+  
   /* ================= PENCIL WRITING EFFECT ================= */
+
   const fullText =
     "Whether you're writing exams, signing deals, or sketching ideas, SUMU pencils are built to perform beautifully.";
 

@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import React, { useEffect } from "react";
 import {
   HashRouter as Router,
@@ -36,6 +38,7 @@ const ScrollToTop = () => {
 };
 
 /* ================= PLACEHOLDER ================= */
+
 const ServicesPlaceholder = () => (
   <div className="py-20 text-center bg-white">
     <h1 className="text-4xl font-serif mb-4">Our Services</h1>

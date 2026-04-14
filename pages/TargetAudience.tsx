@@ -9,6 +9,7 @@ import {
   Hotel,
 } from "lucide-react";
 
+
 export const TargetAudience = () => {
   const audiences = [
     {

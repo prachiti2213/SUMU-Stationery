@@ -1,4 +1,5 @@
 //@ts-nocheck
+
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { useContent } from '../context/ContentContext';
