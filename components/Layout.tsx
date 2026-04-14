@@ -97,10 +97,10 @@ const Footer = () => (
               <Instagram />
             </a>
 
-            {/* Facebook (unchanged placeholder) */}
+            {/* Facebook (unchanged placeholder)
             <a href="#" className="hover:text-white transition">
               <Facebook />
-            </a>
+            </a> */}
 
             {/* LinkedIn */}
             <a
